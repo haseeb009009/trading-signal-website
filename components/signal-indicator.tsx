@@ -34,7 +34,7 @@ export default function SignalIndicator({
         <>
           <ArrowUpCircle className="h-12 w-12 text-green-500" />
           <h2 className="text-xl font-bold mt-1 text-green-500">BUY</h2>
-          <p className="text-xs text-muted-foreground mt-1">MA 6 crossed above MA 14</p>
+          <p className="text-xs text-muted-foreground mt-1"></p>
           {timeFrame && (
             <div className="flex items-center gap-1 mt-1">
               <Badge variant="outline" className="text-[10px] py-0 px-2 h-5">
@@ -60,7 +60,7 @@ export default function SignalIndicator({
         <>
           <ArrowDownCircle className="h-12 w-12 text-red-500" />
           <h2 className="text-xl font-bold mt-1 text-red-500">SELL</h2>
-          <p className="text-xs text-muted-foreground mt-1">MA 6 crossed below MA 14</p>
+          <p className="text-xs text-muted-foreground mt-1"></p>
           {timeFrame && (
             <div className="flex items-center gap-1 mt-1">
               <Badge variant="outline" className="text-[10px] py-0 px-2 h-5">
